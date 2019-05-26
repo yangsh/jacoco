@@ -17,7 +17,6 @@ pipeline {
                     execPattern: 'target/**/*.exec',
                     classPattern: 'target/classes',
                     sourcePattern: 'src/main/java',
-                    sourceExclusionPattern: '**/com/yangsh/jacoco/*',
                     exclusionPattern: 'src/test*,**/com/yangsh/jacoco/*',
                     skipCopyOfSrcFiles: false,
                     changeBuildStatus: false,
